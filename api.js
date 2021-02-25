@@ -2,7 +2,7 @@
 
 //const beerapiurl = "http://192.168.1.98:1234/";
 //const beerapiurl = "http://home.avz.dk/bfapi/";
-const beerapiurl = "https://wotapi.azurewebsites.net/api"
+const beerapiurl = "https://wotapi.azurewebsites.net/api/"
 
 function apiGetBatchlist(status,callbackfunction,offset=0,limit=50){
     console.log("API");
