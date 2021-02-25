@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- #Modified: 2020/09/08 14:20:13
+-->
+<!--For 7" raspberry touch screen 800 x 480 pixel  -->>
+
+<head>
+  <title>Final Gravity</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <META HTTP-EQUIV="refresh" CONTENT="1800"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.bundle.min.js"></script>
+  <script src="taplist.js"></script>
+  <script src="api.js"></script>
+
+  <style> 
+    .bg-orange {background-color: #f16428; color: #ffffff;}
+    .bg-sort {background-color: #000000; color: #ffffff;}
+    .bg-ebc1 {background-color: #ffcd8a; color: #000000;}
+    .bg-ebc2 {background-color: #c77f2f; color: #000000;}
+    .bg-ebc3 {background-color: #d07716; color: #000000;}
+    .bg-ebc4 {background-color: #7d430d; color: #ffffff;}
+    .bg-ebc5 {background-color: #5b2504; color: #ffffff;}
+    .bg-ebc6 {background-color: #442002; color: #ffffff;}
+    .bg-ebc7 {background-color: #130600; color: #ffffff;}
+    </style>
+ 
+</head>
+
+<body style="background-color:black;">
+    
+  <div class="container-fluid">
+    <div class="row">
+      <div id="col11" class="col-sm-4 bg-ebc7" >
+        <a href="http://fgbrew.dk/taps.html"><img id="image1" src="./images/empty.jpg" width=190 class="img-fluid"></a>
+        <p></p>
+      </div>
+      <div id="col12" class="col-sm-4 bg-ebc7" >
+        
+        <a href="index.html"><img id="image2" src="./images/empty.jpg" width=190 class="img-fluid"></a>
+        <p></p>
+      </div>
+      <div id="col13" class="col-sm-4 bg-ebc7" >
+        
+        <img id="image3" src="./images/empty.jpg" width=190 class="img-fluid">
+        <p></p>
+      </div>
+
+      
+    </div> 
+    <div class="row">
+      <div id="col21" class="col-sm-4 bg-sort" >
+        <h5 id="name1"></h5>
+        <h6 id="style1"></h6>
+        <table class="table table-borderless table-sm text-white">
+            <tbody id="beerdata1">
+              
+            </tbody>
+        </table>
+      </div>
+      <div id="col22" class="col-sm-4 bg-sort" >
+
+        <h5 id="name2"></h5>
+        <h6 id="style2"></h6>
+        <table class="table table-borderless table-sm text-white">
+            <tbody id="beerdata2">
+
+            </tbody>
+        </table>
+      </div>
+      <div id="col23" class="col-sm-4 bg-sort" >
+
+        <h5 id="name3"></h5>
+        <h6 id="style3"></h6>
+        <table class="table table-borderless table-sm text-white">
+            <tbody id="beerdata3">
+            </tbody>
+        </table>
+
+
+      </div>
+    </div>
+      
+  
+  </div>
+
+  
+
+</body>
+
+</html>
